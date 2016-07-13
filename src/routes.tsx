@@ -1,6 +1,5 @@
 import * as React from "react";
-import * as Router from "react-router";
-import { Route, IndexRoute } from "react-router";
+import { IndexRoute, Route } from "react-router";
 
 import EditUserProfile from "./components/EditUserProfile";
 import Hello from "./components/Hello";

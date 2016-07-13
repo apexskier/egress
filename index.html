@@ -3,6 +3,29 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>egress!</title>
+	<style>
+		@keyframes notification-out {
+			0% {
+				opacity: 1;
+				transform: translateX(0);
+			}
+			100% {
+				opacity: 0;
+				transform: translateX(-100px);
+			}
+		}
+
+		.notification-out {
+			animation-name: notification-out;
+			animation-duration: 300ms;
+			animation-timing-function: ease-in;
+		}
+
+		.debug-ui * {
+			outline-color: magenta;
+			outline-style: auto;
+		}
+	</style>
 </head>
 <body>
 	<div id="app"></div>
